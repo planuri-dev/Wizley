@@ -82,7 +82,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/",
+  base: "/",                  // ✅ correct for wizley.co.kr
   plugins: [react()],
   root: path.resolve(import.meta.dirname, "client"),
   resolve: {
@@ -91,7 +91,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist"),
+    outDir: path.resolve(import.meta.dirname, "docs"),
     emptyOutDir: true,
   },
 });
