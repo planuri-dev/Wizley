@@ -5,12 +5,14 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import LandingPage from "@/pages/LandingPage";
+import MobilePaymentPage from "@/pages/mobilePayemntPage";
 
 function AppRouter() {
   return (
     <WouterRouter base="/">
       <Switch>
         <Route path="/" component={LandingPage} />
+        <Route path="/mobile_payment" component={MobilePaymentPage} />
         <Route component={NotFound} />
       </Switch>
     </WouterRouter>

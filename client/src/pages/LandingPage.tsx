@@ -4,7 +4,6 @@ import { SolutionsSection } from "@/components/SolutionsSection";
 import { WhyWizleySection } from "@/components/WhyWizleySection";
 import { PortfolioSection } from "@/components/PortfolioSection";
 import { ProcessSection } from "@/components/ProcessSection";
-// import { InquirySection } from "@/components/InquirySection";
 import { Footer } from "@/components/Footer";
 
 export default function LandingPage() {
@@ -17,7 +16,6 @@ export default function LandingPage() {
         <WhyWizleySection />
         <PortfolioSection />
         <ProcessSection />
-        {/* <InquirySection /> */}
       </main>
       <Footer />
     </div>
